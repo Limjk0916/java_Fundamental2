@@ -20,6 +20,8 @@ public class WildDemo {
 			}
 			j++;
 		}//
+		
+		///////nhkulkuliulili
 			
 	}
 
