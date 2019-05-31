@@ -1,6 +1,6 @@
 package java_20190529;
 
-public class ClaendaDemo {
+public class CalendarDemo {
 	public static void main(String[] args) {
 		/*
 		 * 달력 만들기
@@ -13,6 +13,7 @@ public class ClaendaDemo {
 		 * - 총일수 7로 나눈 나머지가 1 이면 월요일, 2 이면 화요일,...
 		 * 6 이면 토요일, 0이면 일요일
 		 */
+		//paresInt 문자열을 숫자열로 바꿔줌
 		int year = Integer.parseInt(args[0]);
 		int month = Integer.parseInt(args[1]);
 		int date = Integer.parseInt(args[2]);
