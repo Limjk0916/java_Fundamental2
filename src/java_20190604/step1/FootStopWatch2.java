@@ -19,12 +19,12 @@ public class FootStopWatch2 {
 	
 	public static void main(String[] args) {
 		FootStopWatch2 f = new FootStopWatch2();
-		f.startTime = System.nanoTime();
+		f.startNanoTime = System.nanoTime();
 		
 		for(int i=0;i<2000000000l;i++){
 			
 		}
-		f.endTime = System.nanoTime();
+		f.endNanoTime = System.nanoTime();
 		double elapsedTime = f.getElapsedNanoTime();
 		
 		System.out.println("경과된 시간(나노세컨드) : "+elapsedTime);
