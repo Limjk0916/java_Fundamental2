@@ -3,7 +3,10 @@ package java_20190610;
 //스레드 상속
 public class ThreadDemo extends Thread{
 	public ThreadDemo(String msg){
+		//Thread 클래스의 매개변수가 문자열인 생성자를 호출
+		//msg는 스레드 이름을 정한다.
 		super(msg);
+		
 		
 	}
 	//run 메소드 오버라이딩
